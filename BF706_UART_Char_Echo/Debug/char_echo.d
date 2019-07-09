@@ -1,0 +1,47 @@
+char_echo.doj: ../char_echo.c
+char_echo.doj: ../char_echo.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/stdio.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/yvals.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/stdarg.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/stdint.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/string.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/int/adi_int.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/stdbool.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/int/adi_int_id.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/platform.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/_adi_platform.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/cdefBF706.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/cdefBF706.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/defBF706.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/defBF706.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/defBF70x_id_macros.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/ccblkfn.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/stdlib.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/stdlib_bf.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/builtins.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/builtins_support.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/builtins.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/builtins_support.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/fract_typedef.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/fr2x16_typedef.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/r2x16_typedef.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/raw_typedef.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/i2x16_typedef.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/complex_typedef.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/anomaly_macros_rtl.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/adi_core.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/mc_typedef.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/interrupt.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/exception.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/sys/anomaly_macros_rtl.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/drivers/uart/adi_uart.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/drivers/uart/adi_uart_bf60x.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/dma/adi_dma.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/dma/adi_mdma_bf60x.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/dma/adi_mdma_streams_bf70x.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/dma/adi_pdma_bf60x.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/dma/adi_pdma_channels_bf70x.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/pwr/adi_pwr.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/pwr/adi_pwr_v2.h
+char_echo.doj: ../../../../Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.8.0/Blackfin/include/services/pwr/adi_pwr_bf70x.h
+char_echo.doj: ../system/adi_initialize.h

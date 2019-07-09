@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Readme_BF707_char_echo</title>
+  <style type="text/css">
+    body {font: 12px Arial, Helvetica, Verdana;}
+    table {font: 12px Arial, Helvetica, Verdana;}
+    h1 { font: bold 24px Helvetica; color:#003366; width:100%; border-bottom:1px solid #003366; margin-top:30px; margin-bottom:30px }
+    h2 { font: bold 18px Helvetica; color:#000000; border:0px; margin-top:20px; margin-bottom:20px }
+    h3 { font: bold 14px Helvetica; color:#000000; border:0px; margin-top:20px; margin-bottom:20px }
+    table {tet-align: left; width: 600px }
+    caption {caption-side: bottom;}
+    td {vertical-align: top;}
+    td.heading1 {vertical-align: top; width: 220px; text-align: center; font-weight: bold;}
+    td.heading2 {vertical-align: top; text-align: center; font-weight: bold;}
+    
+  </style></head>
+  <body>
+    <h1>Analog Devices, Inc. CrossCore(R) Embedded Studio Application Example</h1>
+    <h2>ADSP-BF707 EZ-Board Board Support Package</h2>
+    <h3>Project Name: BF707_char_echo</h3>
+    <h3>CONTENTS</h3>
+    <ol>
+      <li><a href="#DE">Description</a></li>
+      <li><a href="#PR">Processor</a></li>
+      <li><a href="#TESTED">Tested with</a></li>
+      <li><a href="#OV">Overview</a></li>
+      <li><a href="#HW">Hardware Setup</a></li>
+      <li><a href="#MACRO">User Configuration Macros</a></li>
+      <li><a href="#SWITCH">Software switch settings</a></li>
+      <li><a href="#REF">References</a></li>
+    </ol>
+
+    <h3><a name="DE">1. Description<br></a></h3>
+    <p>Demonstrates basic UART operation using charecter echo.</p>
+    
+    <h3><a name="PR">2. Processor</a></h3>
+    <ul><li>ADSP-BF707</li></ul>
+
+        <h3><a name="OV">3. Overview</a></h3>
+    <p> This example uses the BF707 UART driver to do character echo onto PuTTY/TeraTerm.
+      This example uses the UART driver blocking mode buffer transaction APIs to read and
+      write data to the UART peripheral.
+    </p>
+
+    <p>
+	The device drivers can operate in one of three modes.
+	<ol>
+	  <li>Non-blocking</li>
+	  <li>Blocking</li>
+	  <li>Callback</li>
+	</ol>
+    </p>
+
+    <p> This example demonstrates the UART driver being operated in both Blocking mode.
+      For more information on driver modes of operation please refer to the driver help
+      pages.
+    </p>
+
+    <p>
+      By default the example configures the UART to operate in interrupt mode.  The user
+      configurable macro USE_DMA_MODE can be uncommented to configure UART to use DMA for
+      data transmit and recieve.
+    </p>
+
+    <p>
+      The user configurable macros can be found in char_echo.h file. Please read the
+    following section for available user configurable macros.
+    </p>
+
+    <h3><a name="HW">4. Hardware Setup</a></h3>
+    <p> Connect Micro USB cable to J2 to P6 on ADSP-BF707 board one end and 
+    other end to PC. Open PuTTY/TeraTerm and configure it with the settings in 
+    Table 1. </p>
+    <p>The appropriate COM port number can be found in the Windows Device Manager under the Ports (COM & LPT) node.
+
+    </p>
+    
+    <table border="1" cellpadding="2" cellspacing="2">
+      <caption> Table 1: COM Settings </caption>
+      <tbody>
+	<tr><td class="heading1">Configuration</td><td class="heading2">Value</td></tr>
+	<tr><td>Bits per second</td><td>9600</td></tr>
+	<tr><td>Data bits</td><td>8</td></tr>
+	<tr><td>Parity</td><td>None</td></tr>
+	<tr><td>Stop bits</td><td>1</td></tr>
+	<tr><td>Flow Control</td><td>None</td></tr>
+      </tbody>
+    </table>
+
+    <h3><a name="MACRO">5. User Configuration Macros</h3>
+    <p>User configuration macros listed in Table 2 is specified in file char_echo.h</p>
+    <table border="1" cellpadding="2" cellspacing="2">
+      <caption> Table 2: User Configuration Macros </caption>
+      <tbody>
+	<tr><td class="heading1">Macro</td><td class="heading2">Function</td></tr>
+	<tr>
+	  <td>USE_DMA_MODE</td>
+	  <td>Enable macro to configure UART to use DMA for data Tx/Rx<br/>
+	      Disable macro to configure UART to operate in interrupt mode
+	</td></tr>
+	<tr><td>BAUD_RATE</td><td>BAUD rate to be used</td></tr>
+      </tbody>
+    </table>
+
+    <h3><a name="SWITCH">6. Software switch settings</a></h3>
+    
+    <p> The following default UART-related switches have been set:  </p>
+    <ul>
+        <li> ~UART0CTS_EN  set to 0 </li>
+        <li> ~UART0RTS_EN set to 0 </li>
+        <li> ~UART0_EN set to 0  </li>
+         </ul>
+    <p>See SoftConfig_BF707.c for more information.</p>
+    <p>Please refer to the ADSP-BF707 EZ-KIT Lite Evaluation System Manual for information
+      on software-controlled switches. </p>
+
+    <h3><a name="REF">7. References</a></h3>
+    <ul>
+      <li>ADSP-BF707 Hardware Reference Manual</li>
+      <li>ADSP-BF707 EZ-Board Schematic</li>
+    </ul>
+    
+    <br>
+    <br>
+
+</body></html>
